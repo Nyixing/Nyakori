@@ -1,0 +1,24 @@
+@font-face {
+    font-family: GameFont;
+    src: url("SourceHanSansCN-Regular.otf"),
+		 url("SourceHanSansCN-Regular.ttf");
+}
+
+@font-face {
+    font-family: GameFont-en;
+    src: url("SourceHanSansCN-Regular.otf"),
+		 url("SourceHanSansCN-Regular.ttf");
+}
+
+@font-face {
+    font-family: GameFont-thai;
+    src: url("SourceHanSansCN-Regular.otf"),
+		 url("SourceHanSansCN-Regular.ttf");
+}
+
+.IIV::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}
